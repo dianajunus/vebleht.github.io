@@ -1,0 +1,264 @@
+body{
+    margin: 0 auto;
+}
+header .header-banner{
+    margin: 0 auto;
+    display: table;/*nachoinaet sverhu
+    bez otstupov,
+    neobhodim*/
+}
+header h1{
+    
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+font-size: 60px;
+color: #000000;
+line-height: 60px;/*sdvig s verhu*/
+/*text-shadow: 2px 2px 8px #000000;*/
+
+}
+
+header h2{
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;/*naklon*/
+    text-transform: uppercase;
+    font-weight: 100;
+    /* delenie mezdu bukvami 
+    letter-spacing: 50px;*/
+    letter-spacing: 3px;
+font-size: 28px;
+color: #292929;
+
+}
+
+.logo {
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #8b9ed1e1;
+    /*padding: 0px 0 20px 0; /*po chas strelke*/
+    
+    }
+
+
+header nav ul {
+
+        display: block;
+        margin: 0 auto; /*pomeshaet na tsentr*/
+        text-align: center; /*pomeshaet b tsentr bnutri*/
+        width: fit-content;
+        
+    }
+header nav ul li {
+        display: inline-block;/*blok v linii*/
+    }
+
+
+nav ul li a {
+
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 3px;
+        color: #000000;
+        text-decoration: none;
+        
+    }
+/*--------------------------*/
+hr {
+
+    color: #f5b5ce;
+    border-width: 2px;
+    border-color: #f5b5ce;
+    width: 60%;
+    margin: 0 auto;/*stavim po center*/
+    margin-bottom: 5px;
+}
+
+
+
+.a1{
+    border-radius: 50%;/*sglazivaet ugli c 0 do 50*/
+    
+    
+}
+
+
+.meist{
+    overflow: hidden;/*ctob i none rabotalo*/
+    
+    padding: 0px 40px;
+    
+    
+    margin-bottom: 20px;
+}
+
+
+
+.ppp{
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #000000;
+
+}
+.start{
+    display: flex;
+}
+
+.s{
+    flex: 50%;
+    float: left;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #000000;
+
+}
+.m_img1{
+    width: 100%;
+    margin: 0 auto;
+}
+.m_img{
+    display: none;
+}
+
+    .gallery-image {
+
+        margin: 10px;
+        position: relative;
+        text-align: center;
+        -webkit-flex-basis: 300px;
+-moz-flex-basis: 300px;
+flex-basis: 300px;
+        
+        } 
+.post-header {       
+
+    /*kujundus*/
+            
+        font-family:"Gentium Basic", sans-serif;          
+        font-weight: 400;
+            font-size: 35px;
+            letter-spacing: 3px;
+            line-height: 38px;
+            color: #000000;
+            text-transform: uppercase;
+            text-shadow: 5px 5px 9px #da0e5c;
+            
+               /*positsioneerimine*/
+            
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+            }
+
+            .gallery-links {
+
+                display: flex;
+                flex-flow: row wrap;
+                display: -webkit-flex;
+                -webkit-flex-flow: row wrap;
+                display: -moz-flex;
+                -moz-flex-flow: row wrap;
+                justify-content: center;
+                -o-flex-flow: row wrap;
+                justify-content: center;
+                
+                }
+
+
+.gallery-image img {
+    width: 100%;
+    
+}
+
+/*--------------------------------*/
+footer {
+    
+overflow: hidden;/*ctob i none rabotalo*/
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #2446a3e1;
+    padding-top: 20px;
+    
+    }
+
+
+.disclaimer {
+    
+display: none;
+    
+    }
+.footer-inf {
+
+    width: fit-content;
+    float: left;/*perenos v levo*/
+    padding-left: 0px;
+    display: block;
+    padding: 0 0 10px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+    }
+
+.v{
+   text-align: center; 
+    padding-bottom: 80px;
+}
+.b{
+    background-color: #8b9ed1e1;
+}
+
+
+
+
+.footer-sm {
+
+        width: 32px; /*shirina img*/
+        float: right; /**/
+        
+        }
+.footer-sm img {
+
+        width: 100%;
+        margin-bottom: 10px;
+    }
+/**/
+@media only screen and (min-width: 950px){
+    hr{
+        display: none;
+    }
+    nav ul li a {
+            font-size: 20px;
+            letter-spacing: 3px;
+
+    }
+    
+    .pic{
+        padding: 37px;
+    }
+    
+    
+.m_img{
+    
+    display: flex;
+    flex: 50%;
+    float: right;
+    
+}
+header h2{
+    font-size: 36px;
+}
+}
